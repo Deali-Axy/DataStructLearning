@@ -18,5 +18,8 @@ int main()
     cout << p + 1 << endl;
     cout << *(p + 1) << endl;
 
+    p[2] = 3;
+    cout << p[2] << endl;
+
     return 0;
 }
